@@ -1,0 +1,12 @@
+Flask==3.0.1
+
+
+# Utilisé pour la génération de clés RSA et le chiffrement/déchiffrement des messages
+pycryptodome==3.20.0
+
+# Bibliothèque requests pour effectuer des requêtes HTTP dans Python
+# J'ai utilisé cette librairie parce que dans l'exercice vous dans l'endpoint 3) vous avez signaler 
+# que je dois recuperer public_key en utilisant GET/key
+requests==2.26.0
+
+
