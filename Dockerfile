@@ -9,7 +9,7 @@ COPY . /app
 
 # Installer les dépendances du projet
 RUN  pip install --no-cache-dir -r requirements.txt
-# Exposer le port 3000 pour l'application Flask
+# Exposer le port 5000 pour l'application Flask
 EXPOSE 5000
 
 # Commande pour démarrer l'application Flask
